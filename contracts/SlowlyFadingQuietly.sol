@@ -11,14 +11,14 @@ contract SlowlyFadingQuietly is ERC1155 {
     uint256 public deploymentTime;
 
     // Initial metadata URIs (fading)
-    string private _fadingURI1 = "ipfs://QmYv7P8EdBuNgFhVRhHuJ3cWzT22pSDEuHDcdUxP76KfFM";
-    string private _fadingURI2 = "ipfs://QmSFgjF2c4AW27mxa6Lqg2hvt9fND9m5NGngrG5qYVa3Ak";
-    string private _fadingURI3 = "ipfs://QmeDvi787Ao9tkroE7iVbwMSpkBjT2AGQFoCpp1XY3C4nE";
+    string private _fadingURI1 = "ipfs://QmRrUB7h6c4UNUCJoNaEkijXpgE274Qsu489eN1aVEmMSC";
+    string private _fadingURI2 = "ipfs://QmTMms3bQdDGHbdxcTv26m4uxwcQNafV3mBd2ZWSfkEdVt";
+    string private _fadingURI3 = "ipfs://QmaQp1G7rG4TWosfsGwAxFby5yEukVpa1Kp5rLPNm9SqS2";
 
     // Final metadata URIs to be used after 8 years
-    string private _finalURI1 = "ipfs://QmT7vSvEX3tLQQTiQtRrN9PiuJePwW8zGRvDsSskEoCop2";
-    string private _finalURI2 = "ipfs://QmQifecJ3QezrxQmjPnnPBTToDUQ9D8psw6PMnrgQsAJoP";
-    string private _finalURI3 = "ipfs://QmP17djcqmjH5K95uzuhfSypk3Cpwvdr5ie8VA1oWzErbM";
+    string private _finalURI1 = "ipfs://QmQgkrdu9RjAGCaSTZ4HnfyqCv8TU799i1WrZ5cm5ucn4A";
+    string private _finalURI2 = "ipfs://QmaVWsM7gnSvgfGaCdjztpWvmL9ZjDrH31xBFTGmYHmLmu";
+    string private _finalURI3 = "ipfs://QmPogXJrNawWJvyf8wV9VtNTcJuD6fmUZEt3tbQAh729T1";
 
     constructor() ERC1155("") {
         deploymentTime = block.timestamp;
