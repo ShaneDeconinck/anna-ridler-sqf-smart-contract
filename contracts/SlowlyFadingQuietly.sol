@@ -18,7 +18,7 @@ contract SlowlyFadingQuietly is ERC1155 {
     // Final metadata URIs to be used after 8 years
     string private _finalURI1 = "ipfs://QmT7vSvEX3tLQQTiQtRrN9PiuJePwW8zGRvDsSskEoCop2";
     string private _finalURI2 = "ipfs://QmQifecJ3QezrxQmjPnnPBTToDUQ9D8psw6PMnrgQsAJoP";
-    string private _finalURI3 = "ipfs://QmXYMxSYfx9ZzArbrS41hRcQWjJ8jypGvWuEfwcCvev6YG";
+    string private _finalURI3 = "ipfs://QmP17djcqmjH5K95uzuhfSypk3Cpwvdr5ie8VA1oWzErbM";
 
     constructor() ERC1155("") {
         deploymentTime = block.timestamp;
